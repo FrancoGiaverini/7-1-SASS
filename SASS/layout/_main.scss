@@ -4,9 +4,8 @@
   max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
-  flex: 1; // permite que el main crezca y empuje el footer abajo
-  text-align: center; // centra todo el contenido inline, incluyendo la imagen
-
+  flex: 1; 
+  text-align: center; 
   &__title {
     font-size: 2.5rem;
     color: v.$color-primary;
