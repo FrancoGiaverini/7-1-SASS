@@ -1,0 +1,29 @@
+@use '../abstracts/variables' as v;
+
+.main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  flex: 1; // permite que el main crezca y empuje el footer abajo
+  text-align: center; // centra todo el contenido inline, incluyendo la imagen
+
+  &__title {
+    font-size: 2.5rem;
+    color: v.$color-primary;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+    color: #555;
+  }
+
+  &__img {
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+

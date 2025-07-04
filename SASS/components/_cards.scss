@@ -1,0 +1,8 @@
+@use '../abstracts/variables' as v;
+
+.card {
+  background-color: v.$color-white;
+  border: 1px solid v.$color-light;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

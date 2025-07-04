@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as v;
+
+.btn {
+  background-color: v.$color-primary;
+  color: v.$color-white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(v.$color-primary, 10%);
+  }
+}
